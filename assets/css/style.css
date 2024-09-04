@@ -110,13 +110,7 @@ body {
 }
 
 
-
-
-
 /*----------------------- TITLE-----------------------*/ 
-
-
-
 
 .header__title{
     margin: 2;
@@ -168,9 +162,6 @@ body {
     }
 }
 
-/*----------------------- MAIN -----------------------*/ 
-
-
 
 #main__section-one{
     margin-top: -30px;
@@ -197,15 +188,11 @@ body {
     background-color: rgb(37, 37, 37);
     position: relative;
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     justify-content: center;
     color: white;
     overflow: hidden;
 }
-
-
-
-
 
 
 /*----------------------- SECTION-ONE -----------------------*/ 
@@ -218,6 +205,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     margin-left: -230px;
+    cursor: pointer;
     
 }
 
@@ -264,6 +252,16 @@ body {
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
     object-fit: cover;
     display: block;
+}
+
+.textContainer__img{
+    display: flex;
+    float: right;
+}
+
+.textContainer__img img{
+    width: 5%;
+    height: auto;
 }
 
 .textContainer {
